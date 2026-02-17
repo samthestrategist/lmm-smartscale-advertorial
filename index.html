@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>5 Reasons Your Scale Is Lying to You (And Why It's So Much Worse If You're Over 40)</title>
+  <meta name="description" content="Your scale doesn't know you're in perimenopause. It doesn't know you built muscle this month. It can't tell the difference between fat and water. Here's what's actually happening." />
+  <meta property="og:title" content="5 Reasons Your Scale Is Lying to You (And Why It's So Much Worse If You're Over 40)" />
+  <meta property="og:description" content="You've been using a tool designed in 1891 to evaluate a body it doesn't understand. Here's what's actually happening — in five parts." />
+  <meta property="og:type" content="article" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #FAF6F1;
+      color: #4A3C31;
+      margin: 0;
+      line-height: 1.7;
+    }
+    h1, h2, h3, h4, h5 {
+      font-family: 'DM Sans', sans-serif;
+      color: #3D2B1F;
+      line-height: 1.2;
+    }
+    p { margin-bottom: 18px; }
+
+    /* Layout */
+    .article-container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Header */
+    .site-header {
+      background: #FAF6F1;
+      border-bottom: 1px solid #E8D9C8;
+      padding: 12px 20px;
+      text-align: center;
+    }
+    .site-header .pub-label {
+      font-size: 11px;
+      color: #7A6A5F;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      margin-bottom: 2px;
+    }
+    .site-header .pub-name {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 900;
+      font-size: 18px;
+      color: #3D2B1F;
+    }
+
+    /* Article meta */
+    .article-meta {
+      background: #F5EDE0;
+      border-bottom: 1px solid #E8D9C8;
+      padding: 10px 20px;
+      text-align: center;
+      font-size: 12px;
+      color: #7A6A5F;
+    }
+
+    /* Numbered reason sections */
+    .reason-number {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .reason-number .num {
+      background: #B85C38;
+      color: white;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 900;
+      font-size: 20px;
+      width: 44px;
+      height: 44px;
+      min-width: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .reason-section {
+      background: white;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 28px;
+      border: 1px solid #E8D9C8;
+    }
+    .reason-section h3 {
+      font-size: clamp(18px, 4.5vw, 22px);
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+
+    /* Pull quote */
+    .pull-quote {
+      background: #F5EDE0;
+      border-left: 4px solid #C4956A;
+      padding: 18px 20px;
+      margin: 24px 0;
+      border-radius: 0 8px 8px 0;
+    }
+    .pull-quote p {
+      font-style: italic;
+      color: #3D2B1F;
+      font-size: 15px;
+      margin: 0;
+      line-height: 1.7;
+    }
+
+    /* Bold callout */
+    .bold-callout {
+      font-weight: 700;
+      color: #3D2B1F;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    /* Mechanism box */
+    .mechanism-box {
+      background: #3D2B1F;
+      color: white;
+      border-radius: 16px;
+      padding: 32px;
+      margin: 32px 0;
+    }
+    .mechanism-box h3 {
+      color: #D4A574;
+      font-size: clamp(20px, 5vw, 26px);
+      margin-bottom: 16px;
+    }
+    .mechanism-box p {
+      color: #C4956A;
+      font-size: 15px;
+    }
+    .signal-item {
+      border-top: 1px solid rgba(196,149,106,0.3);
+      padding-top: 16px;
+      margin-top: 16px;
+    }
+    .signal-item strong {
+      color: #D4A574;
+    }
+    .signal-item p {
+      color: #C4956A;
+      font-size: 14px;
+      margin: 4px 0 0;
+    }
+
+    /* CTA Button */
+    .cta-btn {
+      display: block;
+      background-color: #B85C38;
+      color: white;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 800;
+      font-size: 17px;
+      text-align: center;
+      text-decoration: none;
+      padding: 18px 32px;
+      border-radius: 9999px;
+      box-shadow: 0 6px 0 #8B4326;
+      transition: all 0.15s ease;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .cta-btn:hover {
+      background-color: #A04F2F;
+      box-shadow: 0 4px 0 #8B4326;
+      transform: translateY(2px);
+    }
+
+    /* Inline CTA box */
+    .inline-cta {
+      background: #FAF6F1;
+      border: 2px solid #C4956A;
+      border-radius: 16px;
+      padding: 28px;
+      text-align: center;
+      margin: 40px 0;
+    }
+    .inline-cta .stars { color: #C4956A; font-size: 20px; margin-bottom: 8px; }
+    .inline-cta h4 {
+      font-size: clamp(17px, 4vw, 20px);
+      font-weight: 800;
+      margin-bottom: 8px;
+      color: #3D2B1F;
+    }
+    .inline-cta p {
+      font-size: 14px;
+      color: #7A6A5F;
+      margin-bottom: 20px;
+    }
+
+    /* Testimonial inline */
+    .inline-testimonial {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid #E8D9C8;
+      margin: 24px 0;
+    }
+    .inline-testimonial .stars { color: #C4956A; margin-bottom: 8px; }
+    .inline-testimonial blockquote {
+      font-style: italic;
+      font-size: 15px;
+      color: #3D2B1F;
+      border: none;
+      padding: 0;
+      margin: 0 0 10px;
+      line-height: 1.7;
+    }
+    .inline-testimonial .attribution {
+      font-size: 13px;
+      color: #7A6A5F;
+      font-weight: 600;
+    }
+
+    /* Cost section */
+    .cost-section {
+      background: #3D2B1F;
+      padding: 40px 20px;
+      margin: 40px -20px;
+    }
+    .cost-section h3 {
+      color: #D4A574;
+      font-size: clamp(20px, 5vw, 26px);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .cost-section p { color: #C4956A; }
+
+    /* Reading progress and sticky bar */
+    .sticky-cta-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #3D2B1F;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
+    }
+    .sticky-cta-bar a {
+      background: #B85C38;
+      color: white;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 800;
+      font-size: 15px;
+      padding: 12px 28px;
+      border-radius: 9999px;
+      text-decoration: none;
+      box-shadow: 0 3px 0 #8B4326;
+      text-align: center;
+    }
+
+    /* Section divider */
+    hr.divider { border: none; border-top: 1px solid #E8D9C8; margin: 40px 0; }
+
+    /* Bottom padding for sticky bar */
+    .article-bottom-pad { padding-bottom: 80px; }
+
+    /* Body text size */
+    .body-text { font-size: 16px; line-height: 1.8; color: #4A3C31; }
+    .body-text-sm { font-size: 14px; line-height: 1.8; color: #4A3C31; }
+
+    /* Opening story */
+    .opening-story {
+      font-size: clamp(15px, 3.5vw, 17px);
+      line-height: 1.9;
+      color: #4A3C31;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Header -->
+  <div class="site-header">
+    <div class="pub-label">Presented by</div>
+    <div class="pub-name">Little Miss Mineral · Women's Health</div>
+  </div>
+
+  <!-- Article Meta -->
+  <div class="article-meta">
+    February 17, 2026 · 8-minute read · Women's Health & Perimenopause
+  </div>
+
+  <!-- ============================================================
+       HERO / HEADLINE
+       ============================================================ -->
+  <section style="padding: 40px 0 0;">
+    <div class="article-container">
+
+      <h1 style="font-size: clamp(26px, 7vw, 46px); font-weight: 900; line-height: 1.1; margin-bottom: 16px; text-align:center;">
+        5 Reasons Your Scale Is Lying to You
+      </h1>
+      <h2 style="font-size: clamp(16px, 4vw, 22px); font-weight: 500; color: #7A6A5F; text-align:center; margin-bottom: 32px; font-family: 'Inter', sans-serif; line-height: 1.4;">
+        (And Why It's So Much Worse If You're Over 40)
+      </h2>
+
+      <p style="text-align:center; font-style:italic; color:#7A6A5F; font-size:14px; margin-bottom:40px; border-bottom: 1px solid #E8D9C8; padding-bottom:24px;">
+        <em>Your scale doesn't know you're in perimenopause. It doesn't know you built muscle this month. It can't tell the difference between fat and water. It just shows you a number — and lets you feel terrible about it.</em>
+      </p>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       OPENING STORY
+       ============================================================ -->
+  <section>
+    <div class="article-container opening-story">
+
+      <p>It happened on a Tuesday.</p>
+
+      <p>You'd been good all week. Really good. You skipped the pasta. You did your three workouts. You drank so much water you rattled when you walked.</p>
+
+      <p>You stepped on the scale.</p>
+
+      <p style="font-size: clamp(18px, 4.5vw, 22px); font-weight: 700; color: #3D2B1F; font-family: 'DM Sans', sans-serif;">It went up.</p>
+
+      <p>Two pounds up, actually. And just like that, the whole morning was ruined. The whole <em>week</em> was ruined. You stood there in the bathroom wondering what you were doing wrong. Whether this was just your body now. Whether any of it was even working.</p>
+
+      <div class="pull-quote">
+        <p><strong>Here's the thing nobody tells you: the scale was lying to you.</strong></p>
+      </div>
+
+      <p>Not because it's broken. Because it fundamentally cannot do what you're asking it to do — especially if you're a woman between 38 and 55 whose hormones are doing what hormones do during perimenopause.</p>
+
+      <p>Your scale shows you one number. That number is the total of everything inside your body — fat, muscle, water, bone — all collapsed into a single digit. It can't tell you which one went up. It can't tell you which one went down. And it absolutely cannot factor in what's happening with your estrogen and progesterone right now.</p>
+
+      <p class="bold-callout" style="font-size:clamp(16px,4vw,19px);">You've been using a tool designed in 1891 to evaluate a body it doesn't understand.</p>
+
+      <p>Here's what's actually happening — in five parts.</p>
+
+    </div>
+  </section>
+
+  <hr class="divider" style="margin:32px 0;">
+
+  <!-- ============================================================
+       REASON #1
+       ============================================================ -->
+  <section style="padding: 0 0 8px;">
+    <div class="article-container">
+      <div class="reason-section">
+        <div class="reason-number">
+          <div class="num">1</div>
+          <h3 style="margin:0;">Your Scale Can't Tell Fat from Water</h3>
+        </div>
+
+        <p class="body-text">This is the one that destroys women during perimenopause more than any other.</p>
+
+        <p class="body-text">Estrogen and progesterone fluctuate wildly during the perimenopausal years. And those fluctuations cause your body to hold water. A lot of it. We're talking <strong>2 to 5 pounds</strong> of water weight in a single week — sometimes more.</p>
+
+        <p class="body-text">Women in the r/Perimenopause community document this constantly. One wrote: <em>"Weight skyrocketed — nearly 100 lbs in seven months — almost all in my midsection."</em> Another: <em>"I gained 8 lbs in a week and then lost it in four days. I know it's water. But it still destroys my motivation."</em></p>
+
+        <p class="body-text">Your basic scale sees all of this as weight gain. It doesn't differentiate. It sees mass, and it reports mass.</p>
+
+        <div class="pull-quote">
+          <p><strong>Here's what's real:</strong> That 3-pound "gain" on Monday isn't fat. It's water your body pulled in because progesterone dropped. It's temporary. It's hormonal. And it will resolve on its own in 3–5 days.</p>
+        </div>
+
+        <p class="body-text">But without a breakdown, you can't know that. You just see the number, and the number says you failed.</p>
+
+        <p class="body-text" style="margin-bottom:0;">A body composition scale that tracks water percentage can show you exactly this: <em>water up 4%, body fat unchanged.</em> That's not a setback. That's Tuesday.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       REASON #2
+       ============================================================ -->
+  <section>
+    <div class="article-container">
+      <div class="reason-section">
+        <div class="reason-number">
+          <div class="num">2</div>
+          <h3 style="margin:0;">Your Scale Punishes You for Building Muscle</h3>
+        </div>
+
+        <p class="body-text">This one is particularly brutal if you've been doing resistance training — which, by the way, is the single most important thing women over 40 can do for their metabolic health and long-term bone density.</p>
+
+        <p class="body-text">Here's what happens: You lose 5 pounds of fat. You gain 5 pounds of muscle. Over 8 or 10 weeks of real, consistent work.</p>
+
+        <p class="body-text bold-callout">Your basic scale? Unchanged.</p>
+
+        <p class="body-text">Completely flat. Zero progress. You worked out four times a week for two months and the scale says you went nowhere. So you think you're doing something wrong. You cut more calories. You wonder if the program is broken. Maybe you quit.</p>
+
+        <div class="pull-quote">
+          <p><strong>You were winning. You just couldn't see it.</strong></p>
+        </div>
+
+        <p class="body-text">Body fat down 4%. Muscle mass up 3%. That's the real story. That's the story a body composition scale can tell — and a basic scale never can.</p>
+
+        <p class="body-text" style="margin-bottom:0;">This is called body recomposition. It's what optimal progress looks like for a woman in her 40s. And it's completely invisible on the tool 80% of women are using to measure it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inline CTA #1 -->
+  <div class="article-container">
+    <div class="inline-cta">
+      <div class="stars">★★★★★</div>
+      <h4>The scale that shows you the real story</h4>
+      <p>4.8 out of 5 · 2,847 verified reviews · 60-day guarantee</p>
+      <a href="https://orthocliner.myshopify.com/cart/48023622484123:1" class="cta-btn">
+        See the Little Miss Mineral Smart Body Composition Scale →
+      </a>
+      <p style="margin-top:12px; margin-bottom:0; font-size:12px; color:#7A6A5F;">Free shipping · No subscription · Ships in 3–5 days</p>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       REASON #3
+       ============================================================ -->
+  <section>
+    <div class="article-container">
+      <div class="reason-section">
+        <div class="reason-number">
+          <div class="num">3</div>
+          <h3 style="margin:0;">Your Scale Is Blind to the Fat That Actually Matters</h3>
+        </div>
+
+        <p class="body-text">Here's something your doctor probably hasn't explained clearly enough.</p>
+
+        <p class="body-text">As estrogen declines during perimenopause, fat doesn't just increase — it <em>migrates</em>. Fat that used to sit in your hips and thighs (subcutaneous fat — relatively benign metabolically) shifts toward your abdomen and internal organs. That's visceral fat. And visceral fat is a different story entirely.</p>
+
+        <p class="body-text">Visceral fat is directly linked to insulin resistance, cardiovascular disease risk, and inflammatory markers. It's the fat that matters for your health — not just your appearance.</p>
+
+        <p class="body-text"><em>"The weight is going straight to my middle now,"</em> women in their 40s say. <em>"I never had belly weight before. Now it won't go away no matter what I do."</em></p>
+
+        <div class="pull-quote">
+          <p><strong>The terrifying part:</strong> Your total weight can stay flat while visceral fat increases. The migration happens internally. The scale doesn't change. Your metabolic risk does.</p>
+        </div>
+
+        <p class="body-text" style="margin-bottom:0;">A basic scale cannot detect this. A body composition scale with a visceral fat rating gives you the signal your doctor should have been giving you — so you can actually do something about it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       REASON #4
+       ============================================================ -->
+  <section>
+    <div class="article-container">
+      <div class="reason-section">
+        <div class="reason-number">
+          <div class="num">4</div>
+          <h3 style="margin:0;">Your Scale Counts the Wrong Week Against You</h3>
+        </div>
+
+        <p class="body-text">Most women have one week per month where their scale is at its most brutal.</p>
+
+        <p class="body-text">The luteal phase — the 7–10 days before your period — is when progesterone peaks and then crashes. Your body's response is to retain water, particularly in the days just before bleeding begins.</p>
+
+        <p class="body-text">That's a predictable, biological, hormone-driven 2–5 pound "gain" that will disappear within 72 hours of your period starting.</p>
+
+        <div class="pull-quote">
+          <p><em>"I know it's water weight,"</em> women say. <em>"But it still wrecks me."</em></p>
+        </div>
+
+        <p class="body-text">That's because the scale doesn't say "water weight." It just says you gained 3 pounds. And your brain, which has been conditioned to treat that number as the truth, does what brains do: it panics.</p>
+
+        <p class="body-text">If you're in perimenopause, this pattern becomes even more erratic. Cycle length changes. Hormonal swings are less predictable. The fake weight fluctuation gets bigger and less regular.</p>
+
+        <p class="body-text" style="margin-bottom:0;">A scale that shows you water percentage doesn't make you feel better through encouragement. It shows you the actual signal: <strong>Water percentage up 6%. Fat percentage: unchanged. This is not fat. This is temporary. You're fine.</strong> That's the difference between information and anxiety.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       REASON #5
+       ============================================================ -->
+  <section>
+    <div class="article-container">
+      <div class="reason-section">
+        <div class="reason-number">
+          <div class="num">5</div>
+          <h3 style="margin:0;">Your Scale Is the Only Health Tool Designed to Make You Feel Worse</h3>
+        </div>
+
+        <p class="body-text">Think about every other health metric you track.</p>
+
+        <p class="body-text">Your blood pressure monitor doesn't shame you. Your heart rate monitor doesn't make you feel like a failure. Your glucose tracker doesn't ruin your morning. They all just give you data, in context, without the emotional weight.</p>
+
+        <p class="body-text">Your scale is different. Because for the last 40 years, that one number has been positioned as the verdict on your body. Good number: you pass. Bad number: you failed.</p>
+
+        <p class="body-text">And the number fluctuates — wildly, for reasons that have nothing to do with whether you're making progress. Hormonal water retention. Glycogen stores from last night's sweet potato. The amount of sleep you got. All of it moves the number. None of it moves real body fat.</p>
+
+        <div class="pull-quote" style="margin: 20px 0;">
+          <p><em>"The scale ruined my morning."</em></p>
+        </div>
+
+        <p class="body-text">Real quote, from real women, repeatedly. Not occasionally — as a chronic, recurring experience that saps motivation, triggers restriction, and builds an adversarial relationship with a piece of bathroom hardware.</p>
+
+        <div class="pull-quote">
+          <p><em>"I'm afraid to step on it."</em></p>
+        </div>
+
+        <div class="pull-quote">
+          <p><em>"Nothing I do moves the number. I don't understand what I'm doing wrong."</em></p>
+        </div>
+
+        <div class="pull-quote">
+          <p><em>"I did everything right my whole life. This feels unfair."</em></p>
+        </div>
+
+        <p class="body-text bold-callout" style="margin-bottom:0;">It's not unfair. It's the wrong tool. You've been trying to read a novel through a keyhole.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ============================================================
+       MECHANISM EXPLANATION
+       ============================================================ -->
+  <section>
+    <div class="article-container">
+
+      <h2 style="font-size:clamp(22px,5.5vw,32px); font-weight:800; margin-bottom:20px; text-align:center;">
+        So What's Actually Happening Inside Your Body — And How Do You See It?
+      </h2>
+
+      <p class="body-text">The reason your scale lies to you isn't malicious. It's architectural.</p>
+
+      <p class="body-text">A basic scale measures one signal: total mass. That's it. Everything that makes up your body — fat, muscle, water, bone, organs — gets collapsed into a single number. When any one of those components changes, the number changes. But you can't tell which one moved.</p>
+
+      <p class="body-text">For a woman in her 40s whose hormones are actively shifting, whose fat is redistributing, whose muscle mass matters more than ever for metabolic health — one number is not a measurement. It's a noise source.</p>
+
+      <div class="mechanism-box">
+        <p style="font-size:12px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#C4956A; margin-bottom:6px;">The Core Problem</p>
+        <h3>Single-Signal Blindness.</h3>
+        <p>This is why women who are objectively making progress look at their scale and see failure. The solution isn't to stop measuring. It's to start measuring the right signals.</p>
+      </div>
+
+      <h3 style="font-size:clamp(20px,5vw,26px); font-weight:800; margin-bottom:16px; margin-top:32px;">What Women Who've Stopped Dreading the Scale Are Doing Instead</h3>
+
+      <p class="body-text">There's a technology called Bioelectrical Impedance Analysis — BIA. It's been used clinically for decades. It works by sending a low-level, completely imperceptible electrical current through your body via four electrodes in the scale platform. Different tissues — fat, muscle, water, bone — respond differently to this current.</p>
+
+      <p class="body-text">By measuring the response, the scale can estimate four separate signals simultaneously:</p>
+
+      <div class="mechanism-box">
+        <p style="font-size:12px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:#C4956A; margin-bottom:4px;">Introducing</p>
+        <h3 style="margin-bottom:20px;">The 4-Signal Body Scan</h3>
+
+        <div class="signal-item">
+          <strong>Body fat percentage</strong>
+          <p>Is real fat actually going down? This is the number that matters when you're trying to lose fat — regardless of what the scale says.</p>
+        </div>
+
+        <div class="signal-item">
+          <strong>Muscle mass</strong>
+          <p>Are you building what matters for your metabolism? Going up? Your training is working. Holding steady while weight drops? You're losing fat, not muscle.</p>
+        </div>
+
+        <div class="signal-item">
+          <strong>Body water percentage</strong>
+          <p>Is that "gain" fat, or is it just Tuesday? When water % spikes and fat is unchanged — that's hormonal. Temporary. Not a reason to panic.</p>
+        </div>
+
+        <div class="signal-item">
+          <strong>Visceral fat rating</strong>
+          <p>Is your internal fat distribution moving in a direction you should care about? The one metric that correlates with metabolic risk. Visible now.</p>
+        </div>
+      </div>
+
+      <p class="body-text" style="margin-top:24px;">And here's the crucial part: <strong>the value is not the number you see this morning.</strong> Individual BIA readings can vary ±2–3% based on hydration and time of day. That's why you don't weigh yourself. You <strong>trend yourself</strong>. Weekly averages. Monthly direction. Is body fat going down over 8 weeks? That's real. That's signal. That's how you know the work is working.</p>
+
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ============================================================
+       PRODUCT INTRODUCTION
+       ============================================================ -->
+  <section>
+    <div class="article-container">
+
+      <h2 style="font-size:clamp(22px,5.5vw,30px); font-weight:800; margin-bottom:20px; text-align:center;">
+        The Scale That Was Built for This Moment
+      </h2>
+
+      <p class="body-text">Little Miss Mineral's Smart Body Composition Scale was designed specifically around the 4-Signal Body Scan — and around the experience of women whose bodies are actively changing.</p>
+
+      <p class="body-text">It's not another tech scale that dumps 13 unexplained biometric numbers on you and leaves you trying to google what "metabolic age" means. (Competitor users who bought Withings at $99 are currently dealing with a 2.7-star Trustpilot rating, an app that loses years of data without warning, and features that just got paywalled.)</p>
+
+      <p class="body-text">This scale shows you the four numbers that matter for where you are in your 40s — in plain language, in an app designed for women who want to understand their body, not be confused by it.</p>
+
+      <p class="body-text bold-callout">Here's what you see when you step on:</p>
+
+      <div style="margin-bottom:24px;">
+        <div style="background:white; border-radius:12px; padding:20px; border:1px solid #E8D9C8; margin-bottom:12px;">
+          <p style="font-weight:800; color:#3D2B1F; font-family:'DM Sans',sans-serif; margin-bottom:6px; font-size:15px;">🔥 Body fat %</p>
+          <p class="body-text-sm" style="margin:0;">The number that tells you whether your efforts are working, regardless of what the scale says. If body fat is trending down over 6 weeks, you're losing fat. Full stop.</p>
+        </div>
+        <div style="background:white; border-radius:12px; padding:20px; border:1px solid #E8D9C8; margin-bottom:12px;">
+          <p style="font-weight:800; color:#3D2B1F; font-family:'DM Sans',sans-serif; margin-bottom:6px; font-size:15px;">💪 Muscle mass</p>
+          <p class="body-text-sm" style="margin:0;">If you're doing resistance training, this number tells you it's working — even on the days when the scale says nothing changed.</p>
+        </div>
+        <div style="background:white; border-radius:12px; padding:20px; border:1px solid #E8D9C8; margin-bottom:12px;">
+          <p style="font-weight:800; color:#3D2B1F; font-family:'DM Sans',sans-serif; margin-bottom:6px; font-size:15px;">💧 Water %</p>
+          <p class="body-text-sm" style="margin:0;">When the scale goes up, check this first. If water is up and fat is unchanged, you're retaining fluid. Temporary. Not a reason to skip the gym.</p>
+        </div>
+        <div style="background:white; border-radius:12px; padding:20px; border:1px solid #E8D9C8;">
+          <p style="font-weight:800; color:#3D2B1F; font-family:'DM Sans',sans-serif; margin-bottom:6px; font-size:15px;">📊 Visceral fat rating</p>
+          <p class="body-text-sm" style="margin:0;">The one metric that correlates with metabolic risk, inflammation, and long-term health. The one your doctor probably isn't tracking with you. Visible now.</p>
+        </div>
+      </div>
+
+      <p class="body-text">And the app tracks your trends over time — not just today's reading. Because a trend is information. A single reading is just a moment.</p>
+
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ============================================================
+       TESTIMONIALS
+       ============================================================ -->
+  <section>
+    <div class="article-container">
+
+      <h2 style="font-size:clamp(22px,5.5vw,28px); font-weight:800; margin-bottom:24px; text-align:center;">
+        What Real Women Are Saying
+      </h2>
+
+      <div class="inline-testimonial">
+        <div class="stars">★★★★★</div>
+        <blockquote>"I stepped on the scale at 7am and it said I'd gained 4 pounds. Two minutes later I checked the app and saw my water was up 8% from the day before. My fat was completely unchanged. I cried — but in a different way this time."</blockquote>
+        <div class="attribution">Verified customer</div>
+      </div>
+
+      <div class="inline-testimonial">
+        <div class="stars">★★★★★</div>
+        <blockquote>"I've been doing resistance training for three months. The scale barely moved. But my body fat went from 34.2% to 30.8%. My muscle mass went up 2.1 lbs. My jeans fit differently. Now I have proof that I wasn't imagining it."</blockquote>
+        <div class="attribution">Verified customer</div>
+      </div>
+
+      <div class="inline-testimonial">
+        <div class="stars">★★★★★</div>
+        <blockquote>"I'm 47 and in perimenopause. I finally understand why my weight bounces around. The app shows me what's real and what's hormonal. I stopped dreading Monday mornings."</blockquote>
+        <div class="attribution">Verified customer</div>
+      </div>
+
+      <div class="inline-testimonial">
+        <div class="stars">★★★★★</div>
+        <blockquote>"I can see my progress even when the scale can't. That alone is worth it."</blockquote>
+        <div class="attribution">Verified customer</div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ============================================================
+       COST OF SAYING NO
+       ============================================================ -->
+  <section>
+    <div class="article-container">
+
+      <h2 style="font-size:clamp(22px,5.5vw,28px); font-weight:800; margin-bottom:20px;">
+        Here's What Saying No Actually Costs You
+      </h2>
+
+      <p class="body-text">Another month of stepping on a scale that doesn't know what perimenopause is.</p>
+
+      <p class="body-text">Another morning ruined by a number that can't tell the difference between fat and water.</p>
+
+      <p class="body-text">Another 8-week training block that looks like "nothing" because the one tool you're using to measure progress can only see total weight.</p>
+
+      <p class="body-text">A basic scale costs $25. But the cost of thinking you're failing when you're winning — of cutting more calories when you should be adding protein, of quitting a program that's actually working — that cost is much higher.</p>
+
+      <div style="background:#F5EDE0; border-radius:16px; padding:28px; border:1px solid #D4A574; margin:32px 0;">
+        <p style="font-weight:800; color:#3D2B1F; font-family:'DM Sans',sans-serif; font-size:16px; margin-bottom:8px;">The 60-Day Guarantee</p>
+        <p class="body-text-sm">The Little Miss Mineral Smart Body Composition Scale comes with a 60-day guarantee. If you're not seeing the difference in how you understand your body within 60 days — not just the number, but the actual story underneath it — send it back. Full refund. No restocking fee. No interrogation.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ============================================================
+       FINAL CTA SECTION
+       ============================================================ -->
+  <section style="padding: 0 0 40px;">
+    <div class="article-container">
+
+      <h2 style="font-size:clamp(24px,6vw,34px); font-weight:900; text-align:center; margin-bottom:16px; line-height:1.2;">
+        One Last Thing
+      </h2>
+
+      <p class="body-text" style="text-align:center;">Your scale doesn't know you're in perimenopause.</p>
+      <p class="body-text" style="text-align:center;">It doesn't know you had a good week. It doesn't know you built muscle. It doesn't know your hormones are doing what they're supposed to do in this stage of your life.</p>
+      <p class="body-text" style="text-align:center;">It just shows you a number. And that number has been making you feel like you're failing — when the truth is, you've never needed better data more than you do right now.</p>
+
+      <p class="body-text bold-callout" style="text-align:center; font-size:clamp(16px,4vw,19px); margin-bottom:32px;">
+        You deserve to know what's actually happening in your body.
+      </p>
+
+      <!-- Final CTA Box -->
+      <div style="background:#3D2B1F; border-radius:20px; padding:40px 28px; text-align:center; margin-bottom:32px;">
+        <div style="color:#D4A574; font-size:22px; margin-bottom:12px;">★★★★★</div>
+        <p style="color:#D4A574; font-weight:700; font-size:15px; margin-bottom:4px;">4.8 out of 5 · 2,847 verified reviews</p>
+        <p style="color:#C4956A; font-size:14px; margin-bottom:24px;">14,300+ women over 35 have switched from guessing to knowing</p>
+
+        <h3 style="color:white; font-size:clamp(20px,5vw,26px); margin-bottom:8px;">Little Miss Mineral Smart Body Composition Scale</h3>
+        <p style="color:#D4A574; font-size:28px; font-weight:900; font-family:'DM Sans',sans-serif; margin-bottom:20px;">$79.99</p>
+
+        <a href="https://orthocliner.myshopify.com/cart/48023622484123:1" class="cta-btn" style="margin-bottom:16px; font-size:18px; padding:20px 32px;">
+          See the Little Miss Mineral Smart Body Composition Scale →
+        </a>
+
+        <p style="color:#C4956A; font-size:13px; margin:0; line-height:1.6;">
+          Free shipping · 60-day guarantee · Designed for women who are done letting a single number write the story of their body.
+        </p>
+      </div>
+
+      <p style="text-align:center; font-style:italic; color:#7A6A5F; font-size:14px; line-height:1.7;">
+        <em>Little Miss Mineral | Women's Health &amp; Wellness | littlemissmineral.com</em>
+      </p>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer style="background:#2A1E14; padding:32px 20px; text-align:center;">
+    <p style="color:#C4956A; font-weight:800; font-family:'DM Sans',sans-serif; font-size:16px; margin-bottom:8px;">Little Miss Mineral</p>
+    <p style="color:#7A6A5F; font-size:13px; margin-bottom:16px;">Women's Health &amp; Wellness</p>
+    <a href="https://orthocliner.myshopify.com/cart/48023622484123:1"
+       style="color:#C4956A; font-size:13px; text-decoration:underline;">Order Now — $79.99</a>
+    <p style="color:#4A3C31; font-size:11px; margin-top:16px; line-height:1.6; max-width:500px; margin-left:auto; margin-right:auto;">
+      This article is educational content created by Little Miss Mineral. BIA body composition readings are for wellness tracking purposes and are not a substitute for medical advice. Results vary by individual. © 2026 Little Miss Mineral.
+    </p>
+  </footer>
+
+  <!-- Sticky Bottom CTA Bar -->
+  <div class="sticky-cta-bar">
+    <a href="https://orthocliner.myshopify.com/cart/48023622484123:1">
+      Get the Smart Scale — $79.99 · 60-Day Guarantee →
+    </a>
+  </div>
+
+  <!-- WeTracked Tracking Scripts -->
+  <script async src="https://pixel.wetracked.io/thermo-health-usa.myshopify.com/events.js"></script>
+  <script async src="https://pixel.wetracked.io/ppt.js"></script>
+
+</body>
+</html>
